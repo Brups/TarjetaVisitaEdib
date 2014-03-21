@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Datos de la app -->
+    <string name="app_name">TarjetaVisita</string>
+    <string name="ejemplo_nombre">Nombre de la persona</string>
+    <string name="ejemplo_titulacion">Titulación</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Datos de la tarjeta -->
+    <string name="tarjeta_nombre">Guillermo Rojas</string>
+    <string name="tarjeta_titulacion">Profesor</string>
+
+</resources>
