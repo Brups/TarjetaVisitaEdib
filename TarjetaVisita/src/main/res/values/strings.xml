@@ -11,5 +11,6 @@
     <!-- Datos de la tarjeta -->
     <string name="tarjeta_nombre">Guillermo Rojas</string>
     <string name="tarjeta_titulacion">Profesor</string>
+    <string name="title_activity_reverso_tarjeta">Reverso Tarjeta</string>
 
 </resources>

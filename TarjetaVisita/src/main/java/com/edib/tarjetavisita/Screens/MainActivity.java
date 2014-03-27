@@ -2,9 +2,11 @@ package com.edib.tarjetavisita.Screens;
 
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -48,6 +50,12 @@ public class MainActivity extends Activity {
         Drawable d = tarjeta.getFoto().getDrawable();
         Log.d("MAIN", "id: " + tarjeta.getFoto().getId());
         fotoImageView.setImageDrawable(d);
+    }
+
+    public void onClickFoto(View view) {
+        Toast.makeText(this.getApplicationContext(), "Muy bien " + tarjeta.getNombre() + " le has dado a la foto", Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(this, ReversoTarjetaActivity.class);
+        this.startActivity(intent);
     }
 
 }

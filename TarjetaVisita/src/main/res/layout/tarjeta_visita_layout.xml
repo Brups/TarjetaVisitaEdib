@@ -32,6 +32,7 @@
     </LinearLayout>
 
     <ImageView
+        android:onClick="onClickFoto"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="20dp"
         android:layout_width="wrap_content"
